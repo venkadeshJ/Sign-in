@@ -8,17 +8,40 @@
     <link rel="stylesheet" href="plugins-libraries/bootstrap.min.css">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
     <style>
+        @media (min-width:375px){
+          .form {
+            width: 95%;
+
+          }
+          .forgot {
+            margin-left: -150px;
+            
+          }
+         
+        }
+       
+         
         
         @media (min-width: 768px){
           .form {
             width: 100%;
+            
           }
+          .forgot {
+            margin-left: 100px;
+          }
+         
         }
 
         @media (min-width:1024px) {
           .form {
             width: 30%;
+          
           }
+          .forgot {
+            margin-left: -30px;
+          }
+          
         }
     </style>
     
@@ -53,7 +76,7 @@
           <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Enter your password">
         </div>
         <button style="margin-left: 20px; padding-left: 15px; padding-right: 15px;" type="button" class="btn btn-primary btn-sm rounded-pill">Sign in</button>
-        <a class="link-danger" href="#" style="padding-left: 100px; text-decoration: none;">Forgot Password?</a> 
+        <a class="link-danger forgot" href="#" style=" padding-left: 200px; text-decoration: none;">Forgot Password?</a> 
         <br>
         <br>
         <div>
